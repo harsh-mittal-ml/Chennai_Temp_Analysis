@@ -1,6 +1,4 @@
-#(26)
 
-#(27)
 data <- read.csv("C:/Users/harsh.hm.mittal/OneDrive/Desktop/Predictive Analytics - Regression and Classification/Chennai_1990_2022_Madras.csv", stringsAsFactors=TRUE)
 str(data)
 
@@ -18,12 +16,6 @@ tail(data_train)
 
 data_test = subset(data,time>as.Date("2015-12-31"))
 
-#(28)
-#(29)
-#(30)
-#(31)
-#(32)
-
 
 ## visualisation
 
@@ -33,7 +25,6 @@ plot(data_train$time[1:(3*365)],data_train$tavg[1:(3*365)],pch=20,
 
 omega = 2*pi/365
 
-#(33)
 
 ## modl 1
 
